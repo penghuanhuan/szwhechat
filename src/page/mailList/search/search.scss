@@ -1,0 +1,110 @@
+$rem: 75;
+@function getRem($var) {
+  @return $var/$rem * 1rem;
+}
+.search{
+  height: 100%;
+  position: relative;
+  .mar-r{
+    margin-right: getRem(20);
+  }
+  .search-content{
+    padding: 0;
+    height: 100%;
+    .search-content-box{
+      padding: getRem(20);
+      border-bottom:1px solid #eee;
+    }
+    .search-content-list{
+      overflow-x: hidden;
+      overflow-y: auto;
+      min-height: calc(100% - 50px);
+      // min-height: 100%;
+      .breadcrumb{
+        height: getRem(70);
+        // position: fixed;
+        // z-index: 999;
+        // top: getRem(200);
+        width: 100%;
+        padding: getRem(20) getRem(30);
+        .breadcrumb-list{
+          flex-wrap: nowrap;
+          overflow-x: auto;
+          .breadcrumb-item{
+            flex-shrink: 0;
+            .active{
+              color: #303133;
+              font-weight: 600;
+            }
+          }
+        }
+      }
+      .loadingMore{
+        padding: getRem(20);
+      }
+      .list{
+        .no-data{
+          margin-top: 20px;
+        }
+        .person-list{
+          margin: getRem(20);
+          box-shadow: 0 getRem(4) getRem(8) rgba(0,0,0,.15);
+          border-radius: getRem(8);
+          background: linear-gradient( to bottom, #fff 60%,rgb(237,251,254) 100%);
+          .avatar{
+            border-radius: 50%;
+            overflow: hidden;
+            img{
+              // background-size: 100%;
+            }
+          }
+        }
+        li{
+          padding: getRem(20) getRem(30);
+          .avatar{
+            height: getRem(90);
+            width: getRem(90);
+            border-radius: getRem(8);
+            margin-right: getRem(20);
+            img{
+              width: 100%;
+              height: 100%;
+              background-size: contain;
+            }
+          }
+          .role-box{
+            flex-wrap: wrap;
+            max-height: getRem(100);
+            .role-item{
+              margin: 0 getRem(10) getRem(10) 0 ;
+              flex-shrink: 0;
+              img{
+                width: getRem(40);
+                height: getRem(40);
+              }
+            }
+          }
+
+          .name{
+            padding: getRem(10) getRem(0) getRem(10) getRem(0);
+            color: rgba(7,99,172,1);
+          }
+        }
+      }
+    }
+  }
+  .drawer-content{
+    height: 100%;
+    padding: 20px;
+    .item-style{
+      padding:10px 20px 20px 10px;
+      &>span{
+        width: 60px;
+        display: inline-block;
+      }
+    }
+    .mar-t{
+      margin-top: 20px;
+    }
+  }
+}

@@ -1,0 +1,109 @@
+$rem: 75;
+@function getRem($var) {
+  @return $var/$rem * 1rem;
+}
+.voteList {
+  // width: 100%;
+  background-color: #eeeeee;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  .head {
+    display: flex;
+    height: getRem(90);
+    width: 100%;
+    background-color: #f6f6f6;
+    align-content: center;
+    justify-content: center;
+    .head-tab {
+      display: flex;
+      div {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        color: #333333;
+      }
+      .left {
+        margin-right: 28px;
+      }
+      .right {
+        margin-left: 28px;
+      }
+      .active {
+        color:#27a5f9;
+        border-bottom: 2px solid #27a5f9;
+      }
+    }
+  }
+  .container {
+    width: 100%;
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px 11px;
+    transition: all .5s;
+    .vote {
+      height: getRem(340);
+      border-radius: 4px;
+      display: flex;
+      flex-direction: column;
+      background-color: #fff;
+      padding: 10px;
+      margin-bottom: 10px;
+      .voteTitle {
+        font-size: 16px;
+        font-weight: normal;
+        // font-family: PingFang-SC-Bold;
+        color: #333333;
+        padding-bottom: 10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .voteInCode {
+        width: getRem(461);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .voteContent {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        color: #666;
+        &>div {
+          height: 21px;
+          padding-bottom: 7px;
+        }
+        .range {
+          width: getRem(500);
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+        }
+        .content {
+          .core {
+            width: getRem(461);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+          }
+        }
+      }
+    }
+  }
+}
+.el-loading-mask.is-fullscreen {
+  margin-top: getRem(90);
+}
+body {
+  margin:0;
+}
+div {
+  box-sizing: border-box;
+}
+.other {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  color: #666;
+}

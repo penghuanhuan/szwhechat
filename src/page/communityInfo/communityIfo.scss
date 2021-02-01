@@ -1,0 +1,139 @@
+
+
+
+$rem: 75;
+@function getRem($var) {
+  @return $var/$rem * 1rem;
+}
+.communityInfo{
+  background: #fff;
+  .tips {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .box-card {
+    margin: 10px;
+    .card-header {
+      font-size: 15px;
+      color: rgb(61, 74, 192)
+    }
+    .card-icon {
+      color: rgb(61, 74, 192)
+    }
+    .detail-info {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .5s;
+  }
+  .fade-enter, .fade-leave-to /* .fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
+  }
+  .detail-info {
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+  }
+  .el-card__header {
+    background: rgb(246,246,246);
+  }
+  .text {
+    font-size: 14px;
+  }
+  .title {
+    color: rgb(141,141,141)
+  }
+  .item {
+    margin-bottom: 18px;
+  }
+
+  .clearfix:before,
+  .clearfix:after {
+    display: table;
+    content: "";
+  }
+  .clearfix:after {
+    clear: both
+  }
+
+  .box-card {
+    // width: 480px;
+  }
+
+  min-height: 100%;
+  overflow: hidden;
+  font-size: 16px;
+  .el-tabs__item{
+    height: 50px;
+    line-height: 50px;
+  }
+  .el-checkbox{
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .search{
+    height: getRem(120);
+    padding: getRem(24);
+    background: #fff;
+    .el-input{
+      height: 100%;
+      .el-input__inner{
+        height: 100%;
+      }
+    }
+  }
+  .no-data{
+    margin-top: 30%;
+  }
+  li{
+    background: #fff;
+    padding: 0 getRem(24) 14px getRem(24);
+    margin-bottom:10px;
+    border-bottom: 1px solid #ddd;
+    .header{
+      padding: getRem(36) 0;
+      display: flex;
+      justify-content: space-between;
+      .title{
+        font-size: 16px;
+        color: #333;
+        font-weight: bold;
+      }
+      .type{
+        font-size: 16px;
+        color: #f84343;
+      }
+      .complete{
+        font-size: 16px;
+        color: #41b0fa;
+      }
+    }
+    .list{
+      .score{
+        font-size: getRem(46)
+      }
+      .row{
+        display: flex;
+        line-height: getRem(60);
+        font-size: 14px;
+        .title{
+          width: 74px;
+          color: #999;
+        }
+        .col{
+          color: #333;
+          flex: 1;
+
+          .el-progress{
+            width: 100%;
+            line-height: 30px;
+          }
+        }
+      }
+    }
+  }
+}

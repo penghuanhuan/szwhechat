@@ -1,0 +1,38 @@
+$rem: 75;
+@function getRem($var) {
+  @return $var/$rem * 1rem;
+}
+.satisfaction{
+  min-height: 100%;
+  overflow: hidden;
+  .el-tabs__header{
+    background: #fff;
+    margin: 0;
+  }
+  .el-tabs__nav-scroll{
+    display: flex;
+    justify-content: center;
+  }
+  .list{
+    padding: 0 getRem(20) getRem(20) getRem(20);
+    .li-style{
+      margin-top: getRem(30);
+      padding: getRem(20);
+      border-radius: getRem(10);
+      border: 1px solid #ddd;
+      box-shadow: 0 getRem(4) getRem(8) rgba(0,0,0,.15);
+      .title{
+        padding-bottom: getRem(30);
+        overflow:hidden;
+        text-overflow:ellipsis;
+        white-space:nowrap;
+      }
+    }
+  }
+  .no-data{
+    margin-top: 30%;
+  }
+  .more{
+    padding: getRem(20) 0 getRem(30);
+  }
+}

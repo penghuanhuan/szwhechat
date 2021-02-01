@@ -1,0 +1,65 @@
+$rem: 75;
+@function getRem($var) {
+  @return $var/$rem * 1rem;
+}
+.el-message-box{
+  width: 80%;
+}
+.personInfo{
+  min-height: 100%;
+  padding-bottom: getRem(340);
+  overflow: hidden;
+  .info{
+    margin: getRem(30) 0;
+    padding: getRem(30);
+    .avatar{
+      height: getRem(100);
+      width: getRem(100);
+      border-radius: getRem(8);
+      margin-right: getRem(30);
+      img{
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+      }
+    }
+    .name{
+      padding-bottom: getRem(20);
+      font-weight: bold;
+    }
+  }
+  .mar-b{
+    margin-bottom: getRem(30);
+  }
+  .mar-r{
+    margin-right: getRem(30);
+  }
+  .numInput{
+    width: 50%;
+  }
+  .line{
+    line-height: 1.7;
+    margin: 0 getRem(20);
+    flex-shrink: 1;
+    img{
+      width: getRem(30);
+      height: getRem(30);
+      vertical-align: middle;
+    }
+  }
+  .edite{
+    margin-top: 1rem;
+    // position: absolute;
+    // left: 0;
+    // right: 0;
+    // bottom: 0;
+    height: getRem(450);
+    .el-button+.el-button{
+      margin: 0;
+    }
+    &-btn{
+      width: 80%;
+      margin: 0;
+    }
+  }
+}

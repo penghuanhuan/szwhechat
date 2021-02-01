@@ -1,0 +1,99 @@
+$rem: 75;
+@function getRem($var) {
+  @return $var/$rem * 1rem;
+}
+.addAccount{
+  // padding: getRem(20) getRem(20);
+  // height: 100%;
+  .account-header{
+    height: getRem(350);
+    background: url('../../../indexres/menu/img/h5_bj.png') center center no-repeat;
+    background-size: 100% 100%;
+    padding: getRem(60) getRem(20) 0 getRem(20);
+  }
+  .account-title {
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-evenly;
+    margin: 0 .25rem;
+    height: 4rem;
+    padding: 0 .6rem;
+    margin-top: -3.5rem;
+    background: url('../../../indexres/menu/img/accounttitle.png') center center no-repeat;
+    background-size: 100% 100%;
+    .panel-title {
+      font-weight: bold;
+      padding-top: .7rem;
+      font-size: .6rem;
+    }
+    .panel-content {
+      padding-top: .5rem;
+    }
+    .panel-foot {
+      text-align: right;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      /* align-items: center; */
+    }
+    .special {
+      display: inline-block;
+      padding-right: 3em;
+      .foot-title {
+        font-size: .5rem;
+      }
+    }
+  }
+  .content-title {
+    height: 0.25rem;
+    width: 100%;
+    background: url('../../../indexres/menu/img/bgaccount.png') center center no-repeat;
+    margin-top: 1rem;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(4,161,250);
+    .content-small {
+      font-weight: bold;
+    }
+  }
+  .content{
+    // height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: getRem(20);
+    padding: getRem(20) getRem(40);
+    padding-top: .75rem;
+    // box-shadow: 0px 0px 5px 5px #eee;
+    .el-date-editor.el-input{
+      width: 100%;
+    }
+
+    .form-btn{
+      width: 40%;
+    }
+    .mar-t{
+      display: flex;
+      justify-content: center;
+      margin-top: getRem(60);
+    }
+    .el-form-item__label {
+      text-align: left;
+      width: 100px !important;
+    }
+    .el-form-item__content {
+      margin-left: 100px !important
+    }
+  }
+  .el-form-item__content {
+    .el-select {
+      width:100%
+    }
+  }
+}
+
+.el-message-box{
+  width: 80%;
+}

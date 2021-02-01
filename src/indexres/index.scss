@@ -1,0 +1,179 @@
+$rem:75;
+
+@function getRem($var) {
+
+    @return $var/$rem*1rem;
+}
+
+.index {
+    width: 100%;
+    height: 100%;
+
+    .container {
+        width: 100%;
+        min-height: 100%;
+        overflow: hidden;
+        // padding-bottom: getRem(230);
+        position: relative;
+        background: #fff;
+
+        & .top {
+            height: getRem(134);
+            width: 100%;
+        }
+
+        & .logo {
+            width: 100%;
+            height: getRem(320);
+            background: url(menu/img/banner2@2x.png) no-repeat;
+            background-size: 100% 100%;
+
+            & .nav {
+                width: 100%;
+                height: getRem(70);
+                font-size: getRem(32);
+                line-height: getRem(70);
+                background: rgba(0, 0, 0, 0.3);
+                /* border-bottom: getRem(1) solid #efefef; */
+                display: flex;
+                opacity: 0.8;
+
+                & .head {
+                    margin-left: getRem(20);
+                    display: inline-block;
+                    align-self: center;
+                    height: 100%;
+                    width: 10%;
+                    background: url(menu/img/Personalcenter-icon@3x.png) no-repeat center;
+                    background-size: getRem(35) getRem(40);
+                }
+
+                & .tit {
+                    color: #ffffff;
+                    align-self: center;
+                    width: 76%;
+                    text-align: left;
+                    display: inline-block;
+                }
+
+                & .ion {
+                    display: inline-block;
+                    height: 100%;
+                    width: 12%;
+                    background: url(menu/img/arrow-icon@3x.png) no-repeat center;
+                    background-size: getRem(20) getRem(30);
+                }
+            }
+        }
+
+        & .entry {
+            width: 100%;
+            font-size: getRem(32);
+            text-align: center;
+            background: #fff;
+
+            & .list {
+                display: flex;
+                margin: auto;
+                flex-wrap: wrap;
+                margin-left: getRem(3);
+
+                //padding-bottom: getRem(26);
+                .br {
+                    border-right: getRem(1) solid #f0f0f0;
+                }
+
+                .bb {
+                    border-bottom: getRem(1) solid #f0f0f0;
+                }
+
+                & dl {
+                    /* border: 0.05px solid #FF0000; */
+
+                    &:nth-child(3n) {
+                        border-right: none;
+                    }
+
+                    //     &:nth-last-child(1), &:nth-last-child(2){
+
+                    //         border-bottom:none;
+
+                    // }
+                    width: 33%;
+                    padding: getRem(26) 0 getRem(20) 0;
+                    margin: 0;
+
+                    & dt {
+                        & img {
+                            width: getRem(60);
+                            height: getRem(60);
+                            margin-top: getRem(20);
+                        }
+                    }
+
+                    & dd {
+                        margin: 0;
+                        padding-top: getRem(10);
+                        margin-bottom: getRem(40);
+                    }
+                }
+            }
+
+
+        }
+
+        & .survey {
+            display: flex;
+            justify-content: space-between;
+            margin-top: getRem(16);
+            width: 100%;
+
+            & .left {
+                height: getRem(192);
+                width: 49%;
+                background: url(menu/img/quanshiweixiuzijindongtai.png) no-repeat center;
+                background-size: getRem(208) getRem(154);
+                background-color: #fff;
+                border: getRem(1) solid #efefef;
+            }
+
+            & .right {
+                height: getRem(192);
+                width: 49%;
+                background: url(menu/img/quanshiweixiuzijingaikuang.png) no-repeat center;
+                background-size: getRem(208) getRem(154);
+                background-color: #fff;
+                border: getRem(1) solid #efefef;
+            }
+        }
+
+        & .backLine {
+            background: #eeeeee;
+            height: getRem(10);
+        }
+
+        & .footer {
+            position: absolute;
+            bottom: 0;
+            height: getRem(230);
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            //padding: getRem(20);
+            /* padding-left: getRem(30);
+      padding-right: getRem(30);
+      padding-bottom: getRem(30); */
+            div {
+
+                /* width: 48%;
+        background: #fff;
+        text-align: center;
+        box-shadow: 0px 0px 8px 2px #eee; */
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

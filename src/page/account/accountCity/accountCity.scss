@@ -1,0 +1,89 @@
+$rem: 75;
+@function getRem($var) {
+  @return $var/$rem * 1rem;
+}
+.el-select-dropdown{
+  max-width: 243px;
+}
+.statis-total {
+  background: #eef5ee;
+  width: 100%;
+  padding: .5rem .2rem ;
+  margin-bottom: .5rem;
+  .statis-panel {
+    width: 100%;
+    height: .8rem;
+    line-height: .8rem;
+    display: flex;
+  }
+  .title {
+    display: block;
+    width: 75%
+  }
+}
+.statis-search{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: .2rem;
+  .el-input {
+    margin-right: .2rem;
+  }
+}
+.el-message-box{
+  width: 85% !important;
+}
+.el-dialog__body{
+  padding: .2rem !important;
+  max-height: 10rem;
+  overflow: scroll;
+}
+.accountTypeList {
+  .header {
+    margin-bottom: .3rem;
+    .search-box {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      .el-input {
+        margin-right: .2rem;
+      }
+    }
+  }
+  .content-data {
+    .content-table{
+
+    }
+  }
+  ul {
+    padding: getRem(25);
+    background-color: #fff;
+    li {
+      border-bottom: 1px solid #ddd;
+      padding: getRem(25) 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .content {
+        &>div+div {
+          margin-top: getRem(10);
+        }
+        .title {
+          font-weight: 600;
+        }
+
+      }
+
+    }
+
+    li:last-child {
+      border-bottom: 0;
+      padding: getRem(25) 0 0 0;
+    }
+  }
+  .loadMore {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+}

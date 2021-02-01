@@ -1,0 +1,418 @@
+[
+    {
+        "imgs": "indexres/menu/img/policy@2x.png",
+        "imgsName": "公示公告",
+        "link": "page/articleList/articleList.html?classId=002001",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/announcement@2x.png",
+        "imgsName": "办事指南",
+        "link": "page/articleList/articleList.html?classId=007001",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/Inspection1@2x.png",
+        "imgsName": "招标公告",
+        "link": "page/articleList/articleList.html?classId=011004",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/Inspection2@2x.png",
+        "imgsName": "中标公告",
+        "link": "page/articleList/articleList.html?classId=011005",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/guide@2x.png",
+        "imgsName": "小区信息查询",
+        "link": "page/communityInfo/communityInfo.html?",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/xqxq.png",
+        "imgsName": "小区详情",
+        "link": "page/PlotDetails/PlotDetails.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/inquirypage@2x.png",
+        "imgsName": "便民查询",
+        "link": "page/inquiry/inquirypage",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/regulations@2x.png",
+        "imgsName": "政策法规",
+        "link": "page/articleList/articleList.html?classId=003001",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/creditInformation.png",
+        "imgsName": "信用信息",
+        "link": "page/creditInformation/creditInformation.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/Inspectionreview@2x.png",
+        "imgsName": "检查考评",
+        "link": "page/evaluationList/evaluationList.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/mailList@2x.png",
+        "imgsName": "权限管理",
+        "link": "page/mailList/mailList.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/fundsSearch@2x.png",
+        "imgsName": "维修资金查询",
+        "link": "page/searchMaintenance/searchMaintenance.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/funds@2x.png",
+        "imgsName": "维修资金",
+        "link": "page/maintenance/maintenancepage.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/Repair@2x.png",
+        "imgsName": "我要报修",
+        "link": "page/repairs/repairs.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/vote@2x.png",
+        "imgsName": "我要投票",
+        "link": "page/vote/voteList/voteList.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/Securitycheck@2x.png",
+        "imgsName": "安全检查",
+        "link": "page/safetyChecks/safetyChecks.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/Satisfaction@2x.png",
+        "imgsName": "满意度调查",
+        "link": "page/satisfaction/satisfaction.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/Property@2x.png",
+        "imgsName": "小区评价",
+        "link": "page/propertyEvaluate/propertyEvaluate.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/Complaint@2x.png",
+        "imgsName": "我要投诉",
+        "link": "page/complaint/complaint.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/photo@2x.png",
+        "imgsName": "随手拍",
+        "link": "page/snapshot/snapshot.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/inspectionCir@2x.png",
+        "imgsName": "巡检",
+        "link": "page/inspection/inspection.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/messageMge@2x.png",
+        "imgsName": "通知管理",
+        "link": "page/messageMge/messageMge.html",
+        "power": "0",
+        "display": false,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/backlog@2x.png",
+        "imgsName": "待办事项",
+        "link": "page/backlog/backlog.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/noticerelease@2x.png",
+        "imgsName": "通知发布",
+        "link": "page/noticerelease/newNoticeList/newNoticeList.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/feedback@2x.png",
+        "imgsName": "意见反馈",
+        "link": "page/feedback/feedback.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/dailyPatrol@2x.png",
+        "imgsName": "日常巡逻",
+        "link": "page/daily/dailyPatrol.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/dailyCleaning@2x.png",
+        "imgsName": "日常保洁",
+        "link": "page/daily/dailyCleaning.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/wb.png",
+        "imgsName": "维保",
+        "link": "page/maintain/maintain.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/h5_sy39.png",
+        "imgsName": "信息公开",
+        "link": "page/creditOpenness/creditOpennessList/propertyEnterpriseOpenness/propertyEnterpriseOpenness.html?t=12",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/h5_sy39.png",
+        "imgsName": "业主信息公开",
+        "link": "page/creditOpenness/creditOpennessList/propertyEnterpriseOpenness/propertyEnterpriseOpennessOwner.html?t=12",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/h5_sy43.png",
+        "imgsName": "大额资金转账",
+        "link": "page/creditOpenness/creditOpennessList/bigMoneyTransfer/bigMoneyTransfer.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/h5_sy43.png",
+        "imgsName": "业主大额资金转账",
+        "link": "page/creditOpenness/creditOpennessList/ownerBigMoneyTransfer/ownerBigMoneyTransfer.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/creditInformation@2x.png",
+        "imgsName": "发起上报",
+        "link": "page/formulateReport/formulateReport.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/creditInformation@2x.png",
+        "imgsName": "发起安全检查",
+        "link": "page/addSaftCheck/addSaftCheck.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/creditInformation@2x.png",
+        "imgsName": "安全检查统计",
+        "link": "page/saftCheckStatistics/saftCheckStatistics.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/integrityReg.png",
+        "imgsName": "诚信登记列表",
+        "link": "page/integrityReg/integrityRegList.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/creditInformation@2x.png",
+        "imgsName": "诚信登记",
+        "link": "page/integrityReg/integrityRegApply/integrityRegApply.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/h5_19.png",
+        "imgsName": "项目新增",
+        "link": "page/propertyProjectList/propertyProjectList.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/creditInformation@2x.png",
+        "imgsName": "银行公示",
+        "link": "page/bankPublicity/bankPublicity.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/creditInformation@2x.png",
+        "imgsName": "信息统计",
+        "link": "page/statistics/statisticsCity/statisticsCity.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/creditInformation@2x.png",
+        "imgsName": "信息综合查询",
+        "link": "page/comprehensiveQuery/comprehensiveQuery.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/creditInformation@2x.png",
+        "imgsName": "绑定统计",
+        "link": "page/bindingStatistics/bindingStatistics.html?docType=1",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/creditInformation@2x.png",
+        "imgsName": "项目管理",
+        "link": "page/PropertyArea/PropertyAreaList.html?v=1",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/creditInformation@2x.png",
+        "imgsName": "业委会管理",
+        "link": "page/committeeManage/committeeManage.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/addaccount.png",
+        "imgsName": "共有资金账户管理",
+        "link": "page/account/accountList/accountList.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/Information.png",
+        "imgsName": "物业企业",
+        "link": "page/InquiryList/Property/Property.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/Employee.png",
+        "imgsName": "从业人员",
+        "link": "page/InquiryList/Employee/Employee.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/PropertyProject.png",
+        "imgsName": "物业项目",
+        "link": "page/InquiryList/Project/Project.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/PropertyProject.png",
+        "imgsName": "审核项目列表",
+        "link": "page/PropertyArea/PropertyAreaListCensor/PropertyAreaListCensor.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/PropertyProject.png",
+        "imgsName": "账户流水",
+        "link": "page/account/accountFlow/accountFlow.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/PropertyProject.png",
+        "imgsName": "备案列表",
+        "link": "page/recordReview/recordMenu/recordMenu.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    },
+    {
+        "imgs": "indexres/menu/img/pajs.png",
+        "imgsName": "平安建设",
+        "link": "page/bankStatistics/bankStatistics/bankStatistics.html",
+        "power": "0",
+        "display": true,
+        "right": ""
+    }
+]

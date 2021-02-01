@@ -1,0 +1,160 @@
+
+$rem: 75;
+@function getRem($var) {
+  @return $var/$rem * 1rem;
+}
+.main{
+  display: flex;
+  flex-direction:column;
+  min-height: 100%;
+  padding: 5px;
+  .el-upload-list--picture-card .el-upload-list__item {
+    margin: 0 getRem(50) 0px 0;
+    width: 145px;
+    height: 145px;
+  }
+  .input-defined {
+    .el-input__count {
+      .el-input__count-inner {
+        margin-right: 10px;
+      }
+    }
+  }
+  .out-wrap {
+    border: 1px solid rgb(226, 222, 222);
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  .img-wrap {
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(226, 222, 222);
+    .item-img {
+      width: 100%;
+      .el-upload{
+        width: 25%;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+  .title-repaire {
+    color: rgb(51, 144,255);
+    font-size: 16px;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    i {
+      font-size: 20px;
+    }
+  }
+  .check-content {
+    .el-checkbox {
+      padding: 9px 10px !important;
+      margin-right: 10px !important;
+    }
+  }
+  .slect-wrap {
+    display: flex;
+    align-items: center;
+    .el-input__inner {
+      border-top: none !important;
+      border-left: none !important;
+      border-right: none !important;
+    }
+  }
+  .header-content {
+    padding: 10px
+  }
+  .title-text {
+    width: 40%;
+    color: rgb(51, 144,255);
+    font-size: 16px;
+    display: flex;
+    font-weight: bold;
+    align-items: center;
+    i {
+      font-size: 20px;
+    }
+  }
+  .el-upload--picture-card {
+    width: 145px;
+    height: 145px;
+  }
+  .mt{
+    margin-top: getRem(15);
+  }
+  .ml10{
+    margin-left: getRem(10);
+  }
+  .fs{
+    font-size: 15px;
+  }
+  .bg{
+    background: #F5F5F5;
+  }
+  .h{
+    height: getRem(0);
+  }
+  .mtg10{
+    margin-top: getRem(10);
+  }
+  .mbg10{
+    margin-bottom: getRem(10);
+  }
+  .mtg20{
+    margin-top: getRem(20);
+  }
+  .mbg20{
+    margin-bottom: getRem(20);
+  }
+  .cenSelf{
+    align-self: center;
+  }
+  .border{
+    border: 1px dotted #575757;
+  }
+  .border1{
+    display: flex;
+    justify-content: space-between;
+  }
+  .text{
+    display: flex;
+    height: 40px;
+  }
+  .el-checkbox.is-bordered+.el-checkbox.is-bordered {
+    margin-left: getRem(0);
+  }
+
+  .checkbox{
+    display: flex;
+    //flex-wrap:wrap;
+  }
+  .addPhoto{
+    display: flex;
+    .photo{
+      margin-left: getRem(20);
+      width: getRem(220);
+      height: getRem(220);
+    }
+  }
+  .plr20{
+    padding-left: getRem(20);
+    padding-right: getRem(20);
+  }
+  .pb10{
+    padding-bottom: getRem(10);
+  }
+  .pb50{
+    padding-bottom: getRem(50);
+  }
+  .fc{
+    color: #BEBEBE;
+  }
+  .ml-mr{
+    margin-left: getRem(100);
+    margin-right: getRem(100);
+  }
+}

@@ -1,0 +1,43 @@
+$rem: 75;
+
+@function getRem($var) {
+  @return $var/$rem * 1rem;
+}
+.accountRegister{
+  position: relative;
+  min-height: 100%;
+  .header{
+    height: getRem(200);
+    background: url('../../../indexres/menu/img/h5_bj.png') center center no-repeat;
+    background-size: 100% 100%;
+    padding: getRem(60) getRem(20) 0 getRem(20);
+  }
+  .content{
+    min-height: getRem(800);
+    width: 96%;
+    padding: getRem(0) getRem(20) getRem(40);
+    margin: getRem(-120) auto 0;
+    overflow: hidden;
+    box-shadow: 0 getRem(4) getRem(8) rgba(0,0,0,.15);
+    border-radius: getRem(12);
+    .mar-b{
+      margin-bottom: getRem(30);
+    }
+    .mar-t{
+      margin-top: getRem(30);
+    }
+  }
+  .el-table__header-wrapper {
+    border-radius: 8px
+  }
+  .bg-g {
+    color: rgb(20,54,151);
+    background: #f1f3ff;
+    th:nth-of-type(1){
+      border-radius: 8px 0 0 8px ;
+    }
+    th {
+      background: none;
+    }
+  }
+}
